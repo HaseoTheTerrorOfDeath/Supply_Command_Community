@@ -1,0 +1,98 @@
+{
+  "project_name": "Industrial Software Platform (ERP/MES/WMS)",
+  "theme": "Dark",
+  "archetype": "Archetype 2: The Performance Pro (Industrial Command Center Variant)",
+  "colors": {
+    "background": "#0A0A0A",
+    "surface": "#171717",
+    "surface_hover": "#262626",
+    "border": "#262626",
+    "primary": "#FF5500",
+    "primary_hover": "#FF7733",
+    "secondary": "#00F0FF",
+    "warning": "#FFCC00",
+    "success": "#00FF66",
+    "danger": "#FF2200",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A1A1AA",
+    "text_muted": "#52525B"
+  },
+  "typography": {
+    "headings_font": "Barlow Condensed, sans-serif",
+    "body_font": "IBM Plex Sans, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "semibold": 600,
+      "black": 900
+    },
+    "scale": {
+      "h1": "text-4xl md:text-5xl tracking-tighter uppercase font-black",
+      "h2": "text-2xl md:text-3xl tracking-tight uppercase font-black",
+      "h3": "text-xl font-semibold tracking-tight",
+      "h4": "text-lg font-semibold",
+      "body": "text-sm md:text-base leading-relaxed",
+      "small_label": "text-xs tracking-[0.2em] uppercase text-[#A1A1AA]"
+    }
+  },
+  "spacing_and_layout": {
+    "strategy": "Mode B: The 'Control Room' Grid",
+    "container_padding": "p-6",
+    "grid_gap": "gap-4 md:gap-6",
+    "border_radius": "rounded-none",
+    "alignment": "Optical alignment. Left-align dense data. Strict column structure."
+  },
+  "surfaces": {
+    "dashboard_cards": "Grid Borders: Flat background (#171717), 1px solid border (#262626), 0px radius. Hover: slight border color lighten, no shadow.",
+    "header_nav": "Solid background (#0A0A0A) with hard bottom border (#262626). No glassmorphism.",
+    "buttons": "Brutalist block. Sharp corners. Primary filled with #FF5500, black text. High contrast."
+  },
+  "components": {
+    "charts": "Recharts with grid lines visible. Use #FF5500 and #00F0FF for lines/bars.",
+    "tables": "High-density. Sticky header, right-aligned numbers, zebra striping for rows (#0A0A0A / #111111).",
+    "inputs": "Flat, sharp borders, focus ring in #FF5500.",
+    "customization": "Heavily customize Shadcn components to remove 'Vercel-look'. Make corners sharp (rounded-none)."
+  },
+  "motion_and_interactions": {
+    "hover_states": "Crisp color shifts. No bouncy animations.",
+    "focus_states": "High contrast 2px solid ring (#FF5500).",
+    "transitions": "Fast and mechanical. 150ms ease-in-out."
+  },
+  "icons_and_assets": {
+    "icon_library": "@phosphor-icons/react",
+    "icon_style": "Sharp, technical (Regular or Bold weight)."
+  },
+  "image_urls": {
+    "login_hero_bg": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/0e688f2e-274a-4c30-96eb-cad6852c383e/images/74d720b7b52c6df63a15b3f798a251c32465d25538fe2ae2557c5c866e77c0f0.png",
+      "description": "Abstract dark industrial UI background texture for the auth/login screen.",
+      "category": "background"
+    },
+    "automation_panel_bg": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/0e688f2e-274a-4c30-96eb-cad6852c383e/images/271eb774196d05b3a8ce5334403442b4a7762a998ad36e7b2e7384431d2bd9f1.png",
+      "description": "Background image for the Automation Integration Panel.",
+      "category": "background"
+    },
+    "wms_logistics_bg": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/0e688f2e-274a-4c30-96eb-cad6852c383e/images/5cb27e7b2637dc8d34c720b99d6c19a322a2f7e6392cd3c9f50e35b590700337.png",
+      "description": "Visual header or background for Warehouse Management module.",
+      "category": "background"
+    },
+    "factory_generic": {
+      "url": "https://images.unsplash.com/photo-1717386255773-1e3037c81788?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxtYW51ZmFjdHVyaW5nJTIwZmFjdG9yeXxlbnwwfHx8fDE3NzUzOTY1NTF8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Large machine in factory, can be used for multi-plant view thumbnails.",
+      "category": "thumbnail"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Install and use @phosphor-icons/react for icons.",
+    "Implement the 'Control Room' grid (Mode B) for dashboard layouts, ensuring zero wasted space and tight alignment.",
+    "Apply 'Grid Borders' surface strategy: Avoid standard rounded cards; use sharp, 0px border radius with 1px solid borders for a technical, tactical feel.",
+    "Ensure all interactive elements have data-testid attributes for testing.",
+    "Use Recharts for data visualizations (Production throughput, demand forecasting) and style them with the provided accent colors (#FF5500, #00F0FF).",
+    "Integrate the Emergent Google Auth visually onto a login screen utilizing the 'login_hero_bg' image.",
+    "Make sure 'IBM Plex Sans' is applied for all tables and body data, and 'Barlow Condensed' for major KPI numbers and headers.",
+    "The codebase uses .js files, not .tsx. Implement all frontend components accordingly."
+  ]
+}

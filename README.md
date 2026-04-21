@@ -75,7 +75,6 @@ A proposta é transformar o sistema em uma solução colaborativa e em constante
 
 ## 🛠️ Como usar
 
-1. Clone o repositório:
 ```bash
 git clone https://github.com/HaseoTheTerrorOfDeath/Supply_Command_Community.git
 Acesse a pasta:
@@ -84,28 +83,5 @@ Instale as dependências:
 npm install
 Execute o projeto:
 npm run dev
-🔮 Futuro do projeto
-
-Como evolução, está prevista a integração com o sistema ContabilizIA, ampliando as funcionalidades para incluir:
-
-Gestão contábil automatizada
-Análises inteligentes
-Apoio à tomada de decisão
-👨‍🎓 Contexto acadêmico
-
-Este projeto foi desenvolvido como parte de um Projeto de Extensão do curso de Ciências Contábeis, com foco em inovação, empreendedorismo e impacto social.
-
-📄 Licença
-
-Este projeto está sob a licença MIT.
-Sinta-se livre para usar, modificar e distribuir.
-
-🤝 Contribuição
-
-Contribuições são bem-vindas!
-
-Caso queira melhorar o projeto:
-
-Fork este repositório
 Crie uma branch
 Envie um pull request

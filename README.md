@@ -77,11 +77,6 @@ A proposta é transformar o sistema em uma solução colaborativa e em constante
 
 ```bash
 git clone https://github.com/HaseoTheTerrorOfDeath/Supply_Command_Community.git
-Acesse a pasta:
 cd Supply_Command_Community
-Instale as dependências:
 npm install
-Execute o projeto:
 npm run dev
-Crie uma branch
-Envie um pull request

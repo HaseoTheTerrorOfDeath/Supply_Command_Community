@@ -27,7 +27,8 @@ para auxiliar pequenos empreendedores no controle de estoque e organização de 
 
 Este projeto está alinhado com os seguintes Objetivos de Desenvolvimento Sustentável (ODS):
 
-- **ODS 8** – Trabalho Decente e Crescimento Econômico  
+- **ODS 8** – Trabalho Decente e Crescimento Econômico
+- **ODS 9** – Indústria, inovação e infraestrutura
 - **ODS 12** – Consumo e Produção Responsáveis  
 
 A proposta é permitir que negócios com poucos recursos tenham acesso a uma ferramenta de gestão eficiente, contribuindo para:

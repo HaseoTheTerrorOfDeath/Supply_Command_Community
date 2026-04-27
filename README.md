@@ -49,18 +49,6 @@ A proposta é permitir que negócios com poucos recursos tenham acesso a uma fer
 
 ---
 
-## ⚠️ Limitações da versão Community
-
-Para manter a simplicidade e acessibilidade, algumas funcionalidades avançadas não estão disponíveis nesta versão:
-
-- Múltiplas plantas operacionais  
-- Automações avançadas  
-- Módulos de inteligência artificial  
-
-Essas limitações não comprometem o uso essencial do sistema, sendo suficientes para pequenos negócios em fase inicial.
-
----
-
 ## 🔓 Open Source
 
 Este projeto é disponibilizado como **código aberto**, permitindo que:
